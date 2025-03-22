@@ -1,7 +1,7 @@
 provider "google" {
   project = var.project_id
   region  = var.region
-  credentials = file("${path.module}/secrets.json") # Optional: Use if you have a service account key
+  credentials = file("${path.module}/raghuram-gcp-1-82350ef8657a.json") # Optional: Use if you have a service account key
 }
 
 module "cloud_function" {
