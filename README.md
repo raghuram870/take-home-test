@@ -62,6 +62,10 @@ zip the Cloud Function code:
    cd cloud_function
    zip -r function.zip main.py requirements.txt # For Python
 
+move the function.zip file to the root  directory 
+
+   mv function.zip ../
+
 
 
 4. Testing the Cloud Function Locally:
